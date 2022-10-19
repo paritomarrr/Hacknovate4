@@ -62,7 +62,9 @@ html, body {
   font-size: 18px;
   font-family: "Cinzel Decorative", "Palatino Light", Times, Times New Roman, Georgia, serif;
   font-weight: 300;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden
+}
   @media (min-width: 768px) {
     html, body {
       font-size: 20px !important;
@@ -4414,8 +4416,7 @@ font-family: 'GOTFONT';
   width: 500px;
 }
 .centered{
-  height: inherit;
-  width: inherit;
+
   border: 2px solid;
   border-color: #ff44ff;
 }
