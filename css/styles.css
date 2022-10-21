@@ -63,7 +63,8 @@ html, body {
   font-family: "Cinzel Decorative", "Palatino Light", Times, Times New Roman, Georgia, serif;
   font-weight: 300;
   text-rendering: optimizeLegibility;
-  overflow-x: hidden
+  overflow-x: hidden;  
+  /* BODY OVERFLOW FIX */
 }
   @media (min-width: 768px) {
     html, body {
@@ -280,9 +281,10 @@ option {
 
 -------------------------------------------------------------------*/
 .navbar-custom {
-  background: linear-gradient(rgba(34, 34, 34, 0.95), rgba(34, 34, 34, 0.75));
+  background: linear-gradient(rgba(34, 34, 34, 0.99), rgba(34, 34, 34, 0.88));
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-  z-index: 3; }
+  z-index: 5; 
+}
 
 .navbar .container {
   font-size: 14px !important; 
@@ -294,7 +296,7 @@ option {
   height: auto; }
 
 a.navbar-logo {
-  background-image: url(../img/logo-compact.png);
+  background-image: url(../img/logo-main.png);
   width: 50px;
   height: 40px;
   background-size: 50px auto;
@@ -321,7 +323,7 @@ a.navbar-logo {
 
 .plain-link {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 0.9em;
+  font-size: 1.3em;
   margin: 0 auto;
   padding: 5px 10px 5px 10px; }
   @media (min-width: 768px) {
@@ -4415,8 +4417,11 @@ font-family: 'GOTFONT';
   height: 200px;
   width: 500px;
 }
-.centered{
+.navbar-nav-center {
+  float: left important;
+  margin-left: 25% !important;
+}
 
-  border: 2px solid;
-  border-color: #ff44ff;
+.blurnav{
+
 }

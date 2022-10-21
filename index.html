@@ -39,22 +39,10 @@
                 <!-- ============== HEADER =============== -->
                 <header id="home">
                     <!-- Main nav -->
-                    <nav class="navbar navbar-inverse navbar-custom navbar-fixed-top">
+                    <nav class="navbar navbar-inverse navbar-custom navbar-fixed-top blurnav">
                         <div class="container">
                             <div class="navbar navbar-header">
                                 <a class="navbar-brand navbar-logo" href="#home"></a>
-                                <!-- SEARCH
-                                    <div class="btn-group">
-                                        <button type="button" class="search-button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <span class="ion-search"></span>
-                                        </button>
-                                        <div class="dropdown-menu dropdown-search-box animated fadeIn">
-                                            <span class="ion-android-arrow-dropup searchbox-caret animated fadeIn"></span>
-                                            <form method="get" action="#">
-                                                <input type="text" placeholder="Search..." class="search-box" required>
-                                            </form>
-                                        </div>
-                                    </div> -->
                                 <button type="button" class="navbar-toggle custom-toggle-btn" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
                                 <span class="sr-only">
                                 <!-- Toggle navigation -->
@@ -65,11 +53,12 @@
                                 </button>
                             </div>
                             <div class="collapse navbar-collapse" id="main-nav">
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li class="plain-link"><a href="#features">About</a></li>
-                                    <li class="plain-link"><a href="#gallery">Timeline</a></li>
-                                    <li class="plain-link"><a href="#store">Tracks</a></li>
-                                    <li class="plain-link"><a href="#contact">Contact</a></li>
+                                <ul class="nav navbar-nav navbar-center navbar-nav-center">
+                                    <li class="plain-link nav-item"><a href="#features">About</a></li>
+                                    <li class="plain-link nav-item"><a href="#tracks">Tracks</a></li>
+                                    <li class="plain-link nav-item"><a href="#gallery">Timeline</a></li>
+                                    <li class="plain-link nav-item"><a href="#store">Tracks</a></li>
+                                    <li class="plain-link nav-item"><a href="#contact">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -90,19 +79,27 @@
                         <div class="row">
                             <h2><span class="gotfont">Hacknovate <span class="xlfont"> 4.0 </span></span></h2>
                             <p class="section-description">
-A 12 hour hackathon, which will be conducted in hybrid mode. This will be a flabbergasting event centered around the theme of (GOT) aimed at promoting hackers and assisting them in developing out of the box ideas and prototypes over various fields providing them great insights.
-At hacknovate 4.0 , we bring together India's best coders, developers, designers, innovators, creators and entrepreneurs of tomorrow. So come join us as we are builders, innovators and creators of tomorrow.</p>
-<blockquote class="quotedecoration gotfont">“I am not going to stop the wheel, I am going to break the wheel”<br/>
-                “So let's break the wheel of time, coz now it's showtime!!!”</blockquote>
+                            A 12 hour hackathon, which will be conducted in hybrid mode. This will be a flabbergasting event centered around the theme of (GOT) aimed at promoting hackers and assisting 
+                            them in developing out of the box ideas and prototypes over various fields providing them great insights.
+                            At hacknovate 4.0 , we bring together India's best coders, developers, designers, innovators, creators and entrepreneurs of tomorrow. So come join us as we are builders, 
+                            innovators and creators of tomorrow.</p>
+                                <blockquote class="quotedecoration gotfont">
+                                        “I am not going to stop the wheel, I am going to break the wheel”<br/>
+                                        “So let's break the wheel of time, coz now it's showtime!!!”
+                                </blockquote>
                 <p class="section-description">
-Are you a budding programmer? Or do you consider yourself pro at programming and implementing your ideas? Hacknovate 4.0 has brought you an opportunity to test how well you know about the world of programming and coding and win amazing prizes. Hackathon is an endurance event of the mind and the body, with incredibly splendid individuals from varying backgrounds getting together to create an idea and incorporate it into an awesome product or prototype in an intense and short period of time. What you have to do?: Take real life problems, find the solution and generate a product, so if that's something for you, boom you're in the right place!
+                            Are you a budding programmer? Or do you consider yourself pro at programming and implementing your ideas? Hacknovate 4.0 has brought you an opportunity to test how 
+                            well you know about the world of programming and coding and win amazing prizes. Hackathon is an endurance event of the mind and the body, with incredibly splendid individuals 
+                            from varying backgrounds getting together to create an idea and incorporate it into an awesome product or prototype in an intense and short period of time. What you have to 
+                            do?
+                            : Take real life problems, find the solution and generate a product, so if that's something for you, boom you're in the right place!
                             </p>
                         </div>
                         <div class="row items-container bottom-wrapper">
                             <p>&nbsp;<br>&nbsp;</p>
                         </div>
                         <div class="row">
-                            <h2><span class="gotfont">Choose your Path</span></h2>
+                            <h2><span class="gotfont" id="tracks">Choose your Path</span></h2>
                             <article id="features-item" class="col-sm-6 col-md-3 box features-item thumbnail-100" data-toggle="modal" data-target="#shop-modal">
                                 <img class="features-img" src="img/Paths/fintech.png" alt="Aleister Hero Character" data-Strength="9" data-Dexterity="7" data-Agility="7" data-Willpower="8" data-Intelligence="4">
                                 <span id="item-name-caption" class="item-name-caption hidden-xs">
@@ -110,7 +107,8 @@ Are you a budding programmer? Or do you consider yourself pro at programming and
                                 </span>
                                 <h3><span class="gotfont">Fintech</span></h3>
                                 <p class="features-p">
-                                    Fintech is a portmanteau of the terms “finance” and “technology” and refers to any business that uses technology to enhance or automate financial services and processes. The term is a wide and quickly developing industry serving the two customers and organizations.
+                                    Fintech is a portmanteau of the terms “finance” and “technology” and refers to any business that uses technology to enhance or automate financial 
+                                    services and processes. The term is a wide and quickly developing industry serving the two customers and organizations.
                                 </p>
                             </article>
                             <article class="col-sm-6 col-md-3 box features-item thumbnail-100" data-toggle="modal" data-target="#shop-modal">
@@ -120,7 +118,8 @@ Are you a budding programmer? Or do you consider yourself pro at programming and
                                 </span>
                                 <h3><span class="gotfont">EdTech</span></h3>
                                 <p class="features-p">
-                                    Edtech fueled by the impact of COVID-19 has grown into a global industry with economic and political implications. The growth in Edtech provides a cogent argument that its place in learning is not a short-term fad but a fundamental, long-term development.
+                                    Edtech fueled by the impact of COVID-19 has grown into a global industry with economic and political implications. The growth in Edtech provides a cogent 
+                                    argument that its place in learning is not a short-term fad but a fundamental, long-term development.
                                 </p>
                             </article>
                             <div class="clearfix visible-sm-block"></div>
@@ -131,7 +130,8 @@ Are you a budding programmer? Or do you consider yourself pro at programming and
                                 </span>
                                 <h3><span class="gotfont">Environment</span></h3>
                                 <p class="features-p">
-                                    Sustainability is a global issue that should be dealt with quickly. We encourage our hackers to come up with innovative ideas and create solutions to better our environment and tackle the issue of climate change.
+                                    Sustainability is a global issue that should be dealt with quickly. We encourage our hackers to come up with innovative ideas and create solutions to better our 
+                                    environment and tackle the issue of climate change.
                                 </p>
                             </article>
                             <article class="col-sm-6 col-md-3 box features-item thumbnail-100" data-toggle="modal" data-target="#shop-modal">
@@ -141,7 +141,8 @@ Are you a budding programmer? Or do you consider yourself pro at programming and
                                 </span>
                                 <h3><span class="gotfont"> HEALTH <br />CARE</span></h3>
                                 <p class="features-p">
-                                    Health services have the capacities to characterize network medical issues, to recognize neglected needs and review the assets to meet them, to build up SMART targets, and to extend managerial activities to achieve the reason for proposed activity programs.
+                                    Health services have the capacities to characterize network medical issues, to recognize neglected needs and review the assets to meet them, to build up SMART 
+                                    targets, and to extend managerial activities to achieve the reason for proposed activity programs.
                                 </p>
                             </article>
 
@@ -153,7 +154,9 @@ Are you a budding programmer? Or do you consider yourself pro at programming and
                                 </span>
                                 <h3><span class="gotfont"> NETWORKING</span></h3>
                                 <p class="features-p">
-                                    Networking is all about bringing people together and helping them bond with each other in a meaningful, memorable way. A successful networking event is all about creating special moments that will lead to meaningful connections. Creating opportunities for those moments is essential and invaluable. So bring some ideas on the table that could diversify and connect more people around you and create an event that could reach to a whole new level.
+                                    Networking is all about bringing people together and helping them bond with each other in a meaningful, memorable way. A successful networking event is all 
+                                    about creating special moments that will lead to meaningful connections. Creating opportunities for those moments is essential and invaluable. So bring some ideas 
+                                    on the table that could diversify and connect more people around you and create an event that could reach to a whole new level.
                                 </p>
                             </article>
 
@@ -182,7 +185,9 @@ Are you a budding programmer? Or do you consider yourself pro at programming and
                         <div class="row">
                             <h2>Begin your Journey</h2>
                             <p class="section-description">
-                                The ornate peace of these halls would be shattered now and then by the faint whispers of the Statue of a thousand faces, as the soul fragments collided and the Heroes met in glorious Combat. For them it would always be the first time, until someone's time to be free of this burden would come - then he'd regain consciousness of who he was and what he had to do.
+                                The ornate peace of these halls would be shattered now and then by the faint whispers of the Statue of a thousand faces, as the soul fragments collided and the 
+                                Heroes met in glorious Combat. For them it would always be the first time, until someone's time to be free of this burden would come - then he'd regain consciousness 
+                                of who he was and what he had to do.
                                 <br><br>But, this time, something was different.
                             </p>
                         </div>
@@ -414,16 +419,6 @@ Are you a budding programmer? Or do you consider yourself pro at programming and
                             <section class="col-md-5">
                                 <img src="img/Logo/iic.png" alt="IIC" class="org">
                             </section>
-                            <!-- <section class="col-md-4">
-                                <cite><img src="img/developer-3.jpg" alt="Antonio Kirill"></cite>
-                                <blockquote>
-                                    People ask me why I work such long hours and I find myself quoting the same thing - I simply adore making games.
-                                </blockquote>
-                                <p>
-                                    <strong>Antonio Kirill</strong>, Lead Game Designer
-                                </p>
-                            </section> -->
-                            <div class="blank"></div>
                         </div>
                     </div>
                 </section>
