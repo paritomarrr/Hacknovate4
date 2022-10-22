@@ -646,7 +646,7 @@ header {
   font-family: Helvetica, Arial, sans-serif;
   color: #71675b;
   font-size: 0.85em;
-  text-align: left;
+  text-align: justify;
   transition: all 0.5s;
   font-weight: 400;
   line-height: 1.4rem; }
