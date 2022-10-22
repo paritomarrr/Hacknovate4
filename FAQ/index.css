@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(0, 31, 49) !important ;
+}
+.card{
+    background-color: transparent !important ;
+    border: #ffcb8d  2px solid;
+    color: #ecd19a !important;
+    margin: 15px;
+    width: 100%;
+}
