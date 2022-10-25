@@ -4611,3 +4611,12 @@ body {
     @media (min-width: 1200px) {
       .contactus {
         background-attachment: fixed; } }
+
+.timeline{
+  background-image: url(../img/timeline.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+  width: 100%;
+}
