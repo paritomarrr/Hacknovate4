@@ -4620,3 +4620,25 @@ body {
   height: 70vh;
   width: 100%;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #333333;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffcb8d ;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffcb8d ;
+
+  
+}
