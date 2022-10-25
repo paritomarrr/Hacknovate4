@@ -4655,8 +4655,41 @@ body {
   .counter  {
     font-size: 0.7em; 
     top:80% !important;
-    left:25% !important;} }
+    left:25% !important;} 
+    .discord-button {
+      top:65% !important;
+      left: 30% !important;
+      
+    }
+  
+  }
 .counter{
   padding: 1em;
   transition-duration: 1s;
+}
+
+.discord-button {
+  font-size:15px;
+  font-family:Arial;
+  width:170px;
+  height:45px;
+  text-align: center;
+  line-height: 290%;
+  border:3px solid;
+  color:#fff;
+  border-color:#8d7a4f !important;
+  font-weight:bold !important;
+  border-top-left-radius:34px !important;
+  border-top-right-radius:34px !important;
+  border-bottom-left-radius:34px !important; 
+  border-bottom-right-radius:34px !important;
+  background-color:transparent;
+  position: absolute;
+  z-index: 9999;
+  top:88%;
+  left: 45%;
+  backdrop-filter: blur(25px);
+}
+.discord-button:hover{
+  background-color:#403724;
 }
