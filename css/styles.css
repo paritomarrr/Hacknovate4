@@ -544,7 +544,7 @@ a.navbar-logo {
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(../img/head-bg1.jpg);
   box-shadow: inset 0 -10px 70px rgba(0, 0, 0, 0.76);
-  height: 75vh;
+  height: 100vh;
   background-position: 75%; }
   @media (min-width: 1200px) {
     header {
@@ -1124,7 +1124,7 @@ ul#model-feats {
       height: auto;
       width: 50%;
       display: inline-block;
-      box-shadow: 0 0 10px #000000; }
+      box-shadow: 0 0 10px #ff0000; }
   .testimonials p {
     color: #ecd19a;
     font-size: 16px;
@@ -4393,10 +4393,18 @@ ul#model-feats {
 /*# sourceMappingURL=styles.css.map */
 /* MY CSS */
 @font-face { font-family: GOTFONT; src: url('../fonts/GameofThrones.ttf'); } /* Imported Game of throne Font */
-
+@font-face { font-family: sign; src: url('../fonts/signature.ttf'); } 
 .gotfont {
 font-family: 'GOTFONT';
 }
+.sign{
+  font-family: 'sign';
+  font-size: 1.5em;
+  color: #998771;
+  text-shadow: 10 -1px 1px 3px #Ffd700;
+  /* animation: neon3 1.5s ease-in-out infinite alternate; */
+}
+
 .xlfont{
   font-size: 2em;
 }
@@ -4585,7 +4593,7 @@ body {
   .organizers {height: 120px;
     width: 300px;}
     .testimonials {
-    background-color: #000000 !important;
+    background-color: #181818 !important;
     background-image: none;
     }
 }
@@ -4641,4 +4649,14 @@ body {
   background: #ffcb8d ;
 
   
+}
+
+@media (max-width: 768px) {
+  .counter  {
+    font-size: 0.7em; 
+    top:80% !important;
+    left:25% !important;} }
+.counter{
+  padding: 1em;
+  transition-duration: 1s;
 }
