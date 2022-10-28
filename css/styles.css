@@ -4489,6 +4489,7 @@ body {
   width: 40px;
   z-index: 9999;
   font-size:1em;
+  backdrop-filter: blur(25px);
 }
 
 #socialarea:hover {
@@ -4674,7 +4675,7 @@ body {
   position: absolute;
   z-index: 9999;
   top:88%;
-  left: 45%;
+  left: 43.8%;
   backdrop-filter: blur(25px);
   transition: 300ms;
 }
@@ -4685,24 +4686,54 @@ body {
 
 /* COUNTER */
 /* .timertext{
-    transition: all;
-    transition-duration: 2s;
+    
 
 }
 .timertext::before {
   content: "Register";
             animation: textchange infinite 3s;
             padding-left: 10px;
+            transition: all .2s ;
+            text-transform:capitalize !important;
+            font-family: sign;
+            font-size: 2em;
+            line-height: 50px;
+            display: inline-block;
 
 }
 @keyframes textchange {
   
   0% {
-      content: "Register";
+      content: "Registeration";
+      opacity: 0;
   }
-
-  100% {
-      content: "NOW";
+  20% {
+    content: "Registeration";
+    opacity: 1;
+}
+40% {
+  content: "Registeration";
+  opacity: 0;
+}
+  60% {
+      content: "Open";
+      opacity: 0;
   }
+  80% {
+    content: "Open";
+    opacity: 1;
+}
+100% {
+  content: "Open";
+  opacity: 0;
+}
 
 } */
+
+
+/* footer  */
+
+.footer-heading{
+  font-family: gotfont;
+  font-size: 1.3em;
+}
