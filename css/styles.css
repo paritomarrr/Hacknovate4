@@ -4738,3 +4738,17 @@ body {
   font-family: gotfont;
   font-size: 1.3em;
 }
+
+.faq-heading a{
+  color:#c4ae78;
+  font-size: 2em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.faq-heading{
+  padding: 0.3em;
+  padding-bottom: 0.em;
+}
+.faq-heading p span{
+  font-family: 'Courier New', Courier, monospace;
+}
