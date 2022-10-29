@@ -578,7 +578,8 @@ header {
   @media (max-width: 768px) {
     .big-logo {
       width: 80%;
-      top: 45%;
+      top: 40%;
+      left: 50%;
       -webkit-transform: translate(-50%, -65%);
       -moz-transform: translate(-50%, -65%);
       -ms-transform: translate(-50%, -65%);
@@ -4662,33 +4663,34 @@ body {
   padding: 1em;
   transition-duration: 1s;
 }
-
-.discord-button {
-  font-size:15px;
-  font-family:Arial;
-  width:170px;
-  height:45px;
-  text-align: center;
-  line-height: 290%;
-  border:3px solid;
-  color:#fff;
-  border-color:#8d7a4f !important;
-  font-weight:bold !important;
-  border-top-left-radius:34px !important;
-  border-top-right-radius:34px !important;
-  border-bottom-left-radius:34px !important; 
-  border-bottom-right-radius:34px !important;
-  background-color:transparent;
-  position: absolute;
-  z-index: 9999;
-  top:88%;
-  left: 44%;
-  backdrop-filter: blur(25px);
-  transition: 300ms;
-}
-.discord-button:hover{
-  background-color:#403724;
-  box-shadow: 0px 0px 100px 4px #7a6a45;
+@media (max-width: 1920px) {
+  .discord-button {
+    font-size:15px;
+    font-family:Arial;
+    width:170px;
+    height:45px;
+    text-align: center;
+    line-height: 290%;
+    border:3px solid;
+    color:#fff;
+    border-color:#8d7a4f !important;
+    font-weight:bold !important;
+    border-top-left-radius:34px !important;
+    border-top-right-radius:34px !important;
+    border-bottom-left-radius:34px !important; 
+    border-bottom-right-radius:34px !important;
+    background-color:transparent;
+    position: absolute;
+    z-index: 9999;
+    top:88%;
+    left: 44%;
+    backdrop-filter: blur(25px);
+    transition: 300ms;
+  }
+  .discord-button:hover{
+    background-color:#403724;
+    box-shadow: 0px 0px 100px 4px #7a6a45;
+  }
 }
 
 /* COUNTER */
