@@ -4652,11 +4652,15 @@ body {
     font-size: 0.7em; 
     top:80% !important;
     left:25% !important;} 
-    .discord-button {
+  .discord-button {
       top:65% !important;
-      left: 30% !important;
-      
+      left: 30% !important; 
     }
+  .devfoliobutton{
+    top:58% !important;
+    left:15% !important;
+  }
+    
   
   }
 .counter{
@@ -4690,6 +4694,11 @@ body {
   .discord-button:hover{
     background-color:#403724;
     box-shadow: 0px 0px 100px 4px #7a6a45;
+  }
+  .devfoliobutton{
+    top:80%;
+    left:40%;
+    margin: 0px auto;
   }
 }
 
@@ -4765,6 +4774,10 @@ body {
   font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
-.buttons{
-  display:inline-block;
+.devfoliobutton{
+  position: absolute;
+  /* border: 2px solid;
+  background-color: #cacaca; */
+  z-index: 100;
+
 }
