@@ -63,7 +63,8 @@ html, body {
   font-family: "Cinzel Decorative", "Palatino Light", Times, Times New Roman, Georgia, serif;
   font-weight: 300;
   text-rendering: optimizeLegibility;
-  overflow-x: hidden;  
+  overflow-x: hidden !important;  
+
   /* BODY OVERFLOW FIX */
 }
   @media (min-width: 768px) {
@@ -379,7 +380,7 @@ a.navbar-logo {
         2.2.1. Buttons / #buttons
 
 -------------------------------------------------------------------*/
-.btn {
+/* .btn {
   box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.35);
   font-size: 90%;
   border-radius: 0px;
@@ -403,7 +404,7 @@ a.navbar-logo {
     color: #ffcb8d;
     background-position: 100px;
     background-image: linear-gradient(to bottom, #b93a27, #9e1e0b);
-    background-image: -webkit-linear-gradient(top, #b93a27, #9e1e0b); }
+    background-image: -webkit-linear-gradient(top, #b93a27, #9e1e0b); } */
 
 .search-button {
   background-color: transparent;
@@ -4779,8 +4780,19 @@ body {
   /* border: 2px solid;
   background-color: #cacaca; */
   z-index: 999;
+  font-family: Nunito Sans;
 
 }
-.apply-button{
+/* .apply-button{
   z-index: 1000;
+} */
+
+.btn{
+  border:0px !important;
+  background-color:#27333f !important;
+  height: 44px; 
+  width: 312px;
+}
+.btn-primary{
+  
 }
