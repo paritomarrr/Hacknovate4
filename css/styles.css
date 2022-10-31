@@ -576,13 +576,13 @@ header {
   -ms-transform: translate(-50%, -90%);
   -o-transform: translate(-50%, -90%);
   transform: translate(-50%, -90%);
-  width: 50%;
+  width: 40%;
   z-index: 0; }
   @media (max-width: 768px) {
     .big-logo {
       width: 80%;
       top: 40%;
-      left: 53%;
+      left: 50%;
       -webkit-transform: translate(-50%, -65%);
       -moz-transform: translate(-50%, -65%);
       -ms-transform: translate(-50%, -65%);
