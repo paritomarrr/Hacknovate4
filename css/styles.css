@@ -70,7 +70,9 @@ html, body {
   @media (min-width: 768px) {
     html, body {
       font-size: 20px !important;
-      padding-right: 0px !important; } }
+      padding-right: 0px !important; 
+      overflow-x: hidden !important;  
+    } }
 
 section {
   padding: 3% 1%; }
