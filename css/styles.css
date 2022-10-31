@@ -4654,14 +4654,16 @@ body {
   .counter  {
     font-size: 0.7em; 
     top:80% !important;
-    left:25% !important;} 
+    left:31% !important;} 
   .discord-button {
       top:65% !important;
-      left: 30% !important; 
+      left: 34% !important; 
+      margin:0 auto !important;
     }
   .devfoliobutton{
-    top:58% !important;
-    left:15% !important;
+    margin:0 auto !important;
+    top:57% !important;
+    left:19% !important;
   }
     
   
@@ -4690,7 +4692,7 @@ body {
     position: absolute;
     z-index: 9999;
     top:88%;
-    left: 44%;
+    left: 46%;
     backdrop-filter: blur(25px);
     transition: 300ms;
   }
@@ -4700,8 +4702,8 @@ body {
   }
   .devfoliobutton{
     top:80%;
-    left:40%;
-    margin: 0px auto;
+    left:42.5%;
+    margin: 0px auto !important;
   }
 }
 
